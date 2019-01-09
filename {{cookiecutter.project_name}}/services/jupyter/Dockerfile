@@ -4,6 +4,13 @@ USER root
 
 RUN pip install --proxy=${http_proxy}\
     psycopg2-binary\
-    minio
+    minio\
+    ipyparallel\
+    seaborn\
+    sklearn\
+    scipy\
+    ipyparallel\
+    statsmodels
+    
 
 USER jovyan
